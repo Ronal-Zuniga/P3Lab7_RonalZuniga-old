@@ -18,8 +18,7 @@ class Mago{
 		void setLealtad(int);
 		int getValentia();
 		void setValentia(int);
-		string toString();
-		//void cualidadesEspeciales();
+		virtual string toString();
 };
 
 #endif

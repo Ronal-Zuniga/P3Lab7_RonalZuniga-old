@@ -117,7 +117,7 @@ void ClaseHogwarts::promedio_habilidades_por_casa(){
 
 void ClaseHogwarts::imprimirSlytherin(){
 	cout << endl;
-	cout << "Magos de Slytherin" << endl
+	cout << "Magos de Slytherin" << endl;
 	cout << endl;
 	for(int i = 0; i < this->magos_slytherin.size(); i++){
 		cout << magos_slytherin[i]->toString();
@@ -128,7 +128,7 @@ void ClaseHogwarts::imprimirSlytherin(){
 
 void ClaseHogwarts::imprimirHufflepuff(){
 	cout << endl;
-	cout << "Magos de Hufflepuff" << endl
+	cout << "Magos de Hufflepuff" << endl;
 	cout << endl;
 	for(int i = 0; i < this->magos_hufflepuff.size(); i++){
 		cout << magos_hufflepuff[i]->toString();
@@ -139,7 +139,7 @@ void ClaseHogwarts::imprimirHufflepuff(){
 
 void ClaseHogwarts::imprimirRavenclaw(){
 	cout << endl;
-	cout << "Magos de Ravenclaw" << endl
+	cout << "Magos de Ravenclaw" << endl;
 	cout << endl;
 	for(int i = 0; i < this->magos_ravenclaw.size(); i++){
 		cout << magos_ravenclaw[i]->toString();
@@ -150,7 +150,7 @@ void ClaseHogwarts::imprimirRavenclaw(){
 
 void ClaseHogwarts::imprimirGryffindor(){
 	cout << endl;
-	cout << "Magos de Gryffindor" << endl
+	cout << "Magos de Gryffindor" << endl;
 	cout << endl;
 	for(int i = 0; i < this->magos_gryffindor.size(); i++){
 		cout << magos_gryffindor[i]->toString();
